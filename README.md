@@ -151,7 +151,7 @@ ollama pull llama3
 ```bash
 ollama serve
 ```
-# Keep this terminal running.
+### Keep this terminal running.
 
 # Terminal 2 - Run the app
 5. Run the application
