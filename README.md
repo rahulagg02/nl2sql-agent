@@ -129,21 +129,22 @@ cd nl2sql-agent
 2. Create a virtual environment
 ```bash
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
+source venv/bin/activate   
 ```
 
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+pip install ollama
 ```
 
 4. Install and run Ollama (LLM)
-```bash
+
 Download Ollama:
 https://ollama.com
 
 Pull the model:
-
+```bash
 ollama pull llama3
 
 Start Ollama (if not running):
