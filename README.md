@@ -147,13 +147,14 @@ Pull the model:
 ```bash
 ollama pull llama3
 
-Start Ollama (if not running):
+# Terminal 1 - Start Ollama
 
 ollama serve
 ```
-
+# Terminal 2 - Run the app
 5. Run the application
 ```bash
+source venv/bin/activate
 python main.py
 ```
 
