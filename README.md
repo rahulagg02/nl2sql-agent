@@ -169,7 +169,7 @@ AI tools were used to:
 
 ⸻
 
-Design Decisions & Tradeoffs
+#Design Decisions & Tradeoffs:
 
 # Guardrails over flexibility
 
