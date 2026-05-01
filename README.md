@@ -211,7 +211,6 @@ This application is ready for live demo and supports:
 * Guardrail enforcement demonstration
 * Error handling and recovery
 
-⸻
 
 ## Summary
 
