@@ -135,7 +135,6 @@ source venv/bin/activate
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
-pip install ollama
 ```
 
 4. Install and run Ollama (LLM)
@@ -146,10 +145,13 @@ https://ollama.com
 Pull the model:
 ```bash
 ollama pull llama3
-
+```
+5. Run the application
 # Terminal 1 - Start Ollama
-
+```bash
 ollama serve
+
+# Keep this terminal running.
 ```
 # Terminal 2 - Run the app
 5. Run the application
