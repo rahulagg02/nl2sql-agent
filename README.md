@@ -10,7 +10,7 @@ The solution reflects how real-world AI data agents are built - treating the LLM
 This application allows users to query an employee database using natural language.  
 The system translates user queries into SQL, executes them on a SQLite database and returns results in a structured format.
 ---
-## 🚀 Features
+## Features
 - Natural language → SQL query generation
 - Executes queries on a SQLite database (`employees.db`)
 - **Strict department-level guardrail enforcement**
@@ -119,7 +119,7 @@ AND e.Department = ‘Engineering’;
 ---
 ## Setup Instructions
 ```bash
-### 1. Clone the repository
+1. Clone the repository
 
 git clone <repo-url>
 cd <repo-name>
@@ -173,24 +173,24 @@ AI tools were used to:
 
 ⸻
 
-⚖️ Design Decisions & Tradeoffs
+Design Decisions & Tradeoffs
 
-✔ Guardrails over flexibility
+# Guardrails over flexibility
 
 * Strict filtering ensures security but limits unrestricted querying
 
-✔ LLM treated as untrusted
+# LLM treated as untrusted
 
 * All outputs are validated and sanitized before execution
 
-✔ Fuzzy matching for certifications
+# Fuzzy matching for certifications
 
 * Uses LIKE '%value%' for realistic querying (e.g., AWS certifications)
 
-✔ Lightweight architecture
+# Lightweight architecture
 
 * No heavy frameworks used
-* Focused on clarity, control, and correctness
+* Focused on clarity, control and correctness
 
 ⸻
 
@@ -223,8 +223,3 @@ This system demonstrates:
 * Clean and modular architecture
 
 ⸻
-
-Notes
-
-If there are improvements you’d like me to explore further, I’d be happy to discuss them during the demo.
-
