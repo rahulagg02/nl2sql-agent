@@ -109,13 +109,14 @@ JOIN Certification c ON e.EmployeeId = c.EmployeeId
 WHERE c.CertificationName LIKE ‘%AWS%’
 AND e.Department = ‘Engineering’;
 
-+—————––+–––––––+———————––+
+```text
++-------------------+--------------+-------------------------+
 | Name              | Department   | CertificationName       |
-+—————––+–––––––+———————––+
++-------------------+--------------+-------------------------+
 | Scott Lee         | Engineering  | AWS Developer Associate |
 | Jacob Nelson      | Engineering  | AWS Solutions Architect |
-…
-
+...
+```
 ---
 ## Setup Instructions
 ```bash
