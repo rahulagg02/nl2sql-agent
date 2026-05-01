@@ -169,21 +169,21 @@ AI tools were used to:
 
 ⸻
 
-# Design Decisions & Tradeoffs:
+## Design Decisions & Tradeoffs:
 
-# Guardrails over flexibility
+## Guardrails over flexibility
 
 * Strict filtering ensures security but limits unrestricted querying
 
-# LLM treated as untrusted
+## LLM treated as untrusted
 
 * All outputs are validated and sanitized before execution
 
-# Fuzzy matching for certifications
+## Fuzzy matching for certifications
 
 * Uses LIKE '%value%' for realistic querying (e.g., AWS certifications)
 
-# Lightweight architecture
+## Lightweight architecture
 
 * No heavy frameworks used
 * Focused on clarity, control and correctness
