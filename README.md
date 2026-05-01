@@ -131,16 +131,14 @@ cd nl2sql-agent
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 ```
-⸻
 
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-⸻
 
 4. Install and run Ollama (LLM)
-
+```bash
 Download Ollama:
 https://ollama.com
 
@@ -151,14 +149,12 @@ ollama pull llama3
 Start Ollama (if not running):
 
 ollama serve
-
-⸻
+```
 
 5. Run the application
-
+```bash
 python main.py
-
-⸻
+```
 
 AI Tools Used
 
