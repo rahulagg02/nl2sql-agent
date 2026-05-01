@@ -118,8 +118,9 @@ AND e.Department = ‘Engineering’;
 
 ---
 ## Setup Instructions
-### 1. Clone the repository
 ```bash
+### 1. Clone the repository
+
 git clone <repo-url>
 cd <repo-name>
 
