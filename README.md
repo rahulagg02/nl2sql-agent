@@ -122,8 +122,8 @@ AND e.Department = ‘Engineering’;
 ```bash
 1. Clone the repository
 
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/rahulagg02/nl2sql-agent.git
+cd nl2sql-agent
 
 ⸻
 
