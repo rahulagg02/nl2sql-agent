@@ -150,9 +150,9 @@ ollama pull llama3
 # Terminal 1 - Start Ollama
 ```bash
 ollama serve
-
-# Keep this terminal running.
 ```
+# Keep this terminal running.
+
 # Terminal 2 - Run the app
 5. Run the application
 ```bash
