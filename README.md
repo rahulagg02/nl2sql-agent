@@ -158,8 +158,8 @@ python main.py
 
 AI Tools Used
 
-* ChatGPT — architecture design, debugging, prompt engineering
-* Ollama — local LLM for NL → SQL generation
+* ChatGPT - architecture design, debugging, prompt engineering
+* Ollama - local LLM for NL → SQL generation
 
 AI tools were used to:
 
@@ -217,5 +217,3 @@ This system demonstrates:
 * Robust handling of LLM limitations
 * Secure query execution with enforced guardrails
 * Clean and modular architecture
-
-⸻
