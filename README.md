@@ -1,7 +1,6 @@
 # NL2SQL Data Agent – Take Home Submission (Dayforce)
 ## Submission Overview
-This project was built as part of the Dayforce Data Agents take-home assignment.  
-It implements a Natural Language to SQL (NL2SQL) system with strong emphasis on:
+This Project implements a Natural Language to SQL (NL2SQL) system with strong emphasis on:
 - Guardrails and access control
 - Robust handling of LLM outputs
 - Accurate SQL generation and execution
