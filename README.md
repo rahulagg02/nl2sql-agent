@@ -171,8 +171,6 @@ python main.py
 * Improve robustness and edge-case handling
 * Explore failure scenarios and fixes
 
-⸻
-
 ## Design Decisions & Tradeoffs:
 
 ## Guardrails over flexibility
@@ -192,15 +190,11 @@ python main.py
 * No heavy frameworks used
 * Focused on clarity, control and correctness
 
-⸻
-
 ## Assumptions
 
 * Certification queries use fuzzy matching (LIKE)
 * Dates are stored as strings (YYYY-MM-DD)
 * Each employee belongs to one department
-
-⸻
 
 ## Demo Readiness
 
@@ -210,7 +204,6 @@ This application is ready for live demo and supports:
 * SQL explanation via debug logs
 * Guardrail enforcement demonstration
 * Error handling and recovery
-
 
 ## Summary
 
