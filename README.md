@@ -125,19 +125,18 @@ AND e.Department = ‘Engineering’;
 git clone https://github.com/rahulagg02/nl2sql-agent.git
 cd nl2sql-agent
 ```
-⸻
 
 2. Create a virtual environment
-
+```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
-
+```
 ⸻
 
 3. Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ⸻
 
 4. Install and run Ollama (LLM)
