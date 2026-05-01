@@ -147,13 +147,13 @@ Pull the model:
 ollama pull llama3
 ```
 5. Run the application
-# Terminal 1 - Start Ollama
+## Terminal 1 - Start Ollama
 ```bash
 ollama serve
 ```
 ### Keep this terminal running.
 
-# Terminal 2 - Run the app
+## Terminal 2 - Run the app
 5. Run the application
 ```bash
 source venv/bin/activate
