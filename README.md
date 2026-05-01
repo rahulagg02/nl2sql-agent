@@ -156,12 +156,12 @@ ollama serve
 python main.py
 ```
 
-AI Tools Used
+## AI Tools Used
 
 * ChatGPT - architecture design, debugging, prompt engineering
 * Ollama - local LLM for NL → SQL generation
 
-AI tools were used to:
+## AI tools were used to:
 
 * Accelerate development
 * Improve robustness and edge-case handling
@@ -190,7 +190,7 @@ AI tools were used to:
 
 ⸻
 
-Assumptions
+## Assumptions
 
 * Certification queries use fuzzy matching (LIKE)
 * Dates are stored as strings (YYYY-MM-DD)
@@ -198,7 +198,7 @@ Assumptions
 
 ⸻
 
-Demo Readiness
+## Demo Readiness
 
 This application is ready for live demo and supports:
 
@@ -209,7 +209,7 @@ This application is ready for live demo and supports:
 
 ⸻
 
-Summary
+## Summary
 
 This system demonstrates:
 
