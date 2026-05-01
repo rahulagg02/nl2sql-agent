@@ -119,12 +119,12 @@ AND e.Department = ‘Engineering’;
 ```
 ---
 ## Setup Instructions
-```bash
-1. Clone the repository
 
+1. Clone the repository
+```bash
 git clone https://github.com/rahulagg02/nl2sql-agent.git
 cd nl2sql-agent
-
+```
 ⸻
 
 2. Create a virtual environment
